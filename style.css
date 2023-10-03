@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: #232429;
+    color: #ddd;
+    height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    height: 20%;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    border-radius: 100%;
+    border: 1px solid #fff;
+    margin-right: 5px;
+    padding: 5px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 10px 15px;
+}
+a{
+    text-decoration: none;
+    color: #ddd;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80%;
+}
+
+.banner-img img{
+    height: 400px;
+}
+.banner-content h4{
+    font-weight: 200;
+    font-size: 20px;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.banner-content h1{
+    font-size: 60px;
+}
+.banner-content h1 span{
+    color: #FE034F;
+    letter-spacing: 2px;
+}
+
+.banner-img{
+    position: relative;
+    padding-bottom: 50px;
+
+}
+.bg-shadow{
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    bottom: 0;
+    left: 10%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    z-index: 99;
+}
